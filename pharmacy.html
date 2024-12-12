@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulife Hospital</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="./favicon (1)/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="./favicon (1)/favicon.svg" />
+    <link rel="shortcut icon" href="./favicon (1)/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon (1)/apple-touch-icon.png" />
+    <link rel="manifest" href="./favicon (1)/web-app-manifest-192x192.png" />
+</head>
+
+<body>
+    <section>
+
+        <!-- header -->
+
+        <header>
+            <div class="logo_container">
+                <img src="./pics/logo.jpg" alt="ULife Hospital Logo" class="logo_img">
+            </div>
+            <a href="index.html" class="logo_text">ULife Hospital</a>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutsus.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="consulting.html">Consulting Reservation</a></li>
+                <li><a href="pharmacy.html">Pharmacy</a></li>
+                <li><a href="FAQ.html">FAQ & Feedbacks</a></li>
+            </ul>
+        </nav>
+        </header>
+
+
+    <div class="medi-container">
+        <h1>Buy Medicine from Hospital Pharmacy</h1>
+
+        
+    <!--Medications-->
+
+<div class="section" id="medications">
+
+    <!--Analgesics-->
+
+    <h2 id="h2" class="one">Analgesics</h2>
+
+    <div class="item">
+        <img src="./pics/para.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Paracetamol 
+            <br> (Rs 50 - One Blister Packs / Tablet Cards)</span>
+        <label for="paracetamol-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="paracetamol-qty" value="0">
+        <button class="add-to-cart" data-name="Paracetamol" data-price="50" data-qty-id="paracetamol-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/1.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Ibuprofen 
+            <br>( Rs 80 - One Blister Packs / Tablet Cards)</span>
+        <label for="ibuprofen-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="ibuprofen-qty" value="0">
+        <button class="add-to-cart" data-name="Ibuprofen" data-price="80" data-qty-id="ibuprofen-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/2.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>aspirin
+            <br>( Rs 90 - One Blister Packs / Tablet Cards))</span>
+        <label for="aspirin-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="aspirin-qty" value="0">
+        <button class="add-to-cart" data-name="Aspirin" data-price="90" data-qty-id="aspirin-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/3.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>diclofenac
+            <br>( Rs 110 - One Blister Packs / Tablet Cards)</span>
+        <label for="diclofenac-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="diclofenac-qty" value="0">
+        <button class="add-to-cart" data-name="Diclofenac" data-price="110" data-qty-id="diclofenac-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/4.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>tramadol
+            <br>( Rs 100 - One Blister Packs / Tablet Cards)</span>
+        <label for="tramadol-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="tramadol-qty" value="0">
+        <button class="add-to-cart" data-name="Tramadol" data-price="100" data-qty-id="tramadol-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/5.jpg" alt="Medicine Image" class="medicine-image">
+        <span>Morphine
+            <br>( Rs 130 - One Blister Packs / Tablet Cards)</span>
+        <label for="morphine-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="morphine-qty" value="0">
+        <button class="add-to-cart" data-name="Morphine" data-price="130" data-qty-id="morphine-qty">Add to Cart</button>
+    </div>
+
+    <!--Antibiotics-->
+
+    <h2 id="h2" class="one">Antibiotics</h2>
+
+    <div class="item">
+        <img src="./pics/6.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Amoxicillin
+            <br>( Rs 120 - One Blister Packs / Tablet Cards)</span>
+        <label for="amoxicillin-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="amoxicillin-qty" value="0">
+        <button class="add-to-cart" data-name="Amoxicillin" data-price="120" data-qty-id="amoxicillin-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/7.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Ciprofloxacin
+            <br>( Rs 125 - One Blister Packs / Tablet Cards)</span>
+        </span>
+        <label for="ciprofloxacin-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="ciprofloxacin-qty" value="0">
+        <button class="add-to-cart" data-name="Ciprofloxacin" data-price="125" data-qty-id="Ciprofloxacin-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/8.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Doxycycline
+            <br>( Rs 150 - One Blister Packs / Tablet Cards)</span>
+        <label for="doxycycline-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="doxycycline-qty" value="0">
+        <button class="add-to-cart" data-name="Doxycycline" data-price="150" data-qty-id="doxycycline-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/9.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Azithromycin
+            <br>( Rs 140 - One Blister Packs / Tablet Cards)</span>
+        <label for="azithromycin-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="azithromycin-qty" value="0">
+        <button class="add-to-cart" data-name="Azithromycin" data-price="140" data-qty-id="azithromycin-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/10.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Ceftriaxone
+            <br>( Rs 160 - One Blister Packs / Tablet Cards)</span>
+        <label for="ceftriaxone-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="ceftriaxone-qty" value="0">
+        <button class="add-to-cart" data-name="Ceftriaxone" data-price="160" data-qty-id="ceftriaxone-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/12.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Metronidazole
+            <br>( Rs 180 - One Blister Packs / Tablet Cards)</span>
+        <label for="metronidazole-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="metronidazole-qty" value="0">
+        <button class="add-to-cart" data-name="Metronidazole" data-price="180" data-qty-id="metronidazole-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/13.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Levofloxacin
+            <br>( Rs 130 - One Blister Packs / Tablet Cards)</span>
+        <label for="levofloxacin-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="levofloxacin-qty" value="0">
+        <button class="add-to-cart" data-name="Levofloxacin" data-price="130" data-qty-id="levofloxacin-qty">Add to Cart</button>
+    </div>
+
+    <!--Antidepressants-->
+
+    <h2 id="h2" class="one">Antidepressants</h2>
+
+    <div class="item">
+        <img src="./pics/14.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>fluoxetine
+            <br>( Rs 130 - One Blister Packs / Tablet Cards)</span>   
+        <label for="fluoxetine-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="fluoxetine-qty" value="0">
+        <button class="add-to-cart" data-name="Fluoxetine" data-price="130" data-qty-id="fluoxetine-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/15.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Sertraline
+            <br>( Rs 120 - One Blister Packs / Tablet Cards)</span>
+        <label for="sertraline-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="sertraline-qty" value="0">
+        <button class="add-to-cart" data-name="Sertraline" data-price="120" data-qty-id="sertraline-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/16.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Amitriptyline
+            <br>( Rs 110 - One Blister Packs / Tablet Cards)</span>
+        <label for="amitriptyline-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="amitriptyline-qty" value="0">
+        <button class="add-to-cart" data-name="Amitriptyline" data-price="110" data-qty-id="amitriptyline-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/17.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Citalopram
+            <br>( Rs 100 - One Blister Packs / Tablet Cards)</span>
+        <label for="citalopram-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="citalopram-qty" value="0">
+        <button class="add-to-cart" data-name="Citalopram"data-price="100" data-qty-id="citalopram-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/18.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Escitalopram
+            <br>( Rs 110 - One Blister Packs / Tablet Cards)</span>
+        <label for="escitalopram-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="escitalopram-qty" value="0">
+        <button class="add-to-cart" data-name="Escitalopram" data-price="110" data-qty-id="escitalopram-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/19.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Venlafaxine
+            <br>( Rs 100 - One Blister Packs / Tablet Cards)</span>
+        <label for="venlafaxine-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="venlafaxine-qty" value="0">
+        <button class="add-to-cart" data-name="Venlafaxine" data-price="100" data-qty-id="venlafaxine-qty">Add to Cart</button>
+        </div>
+
+    <div class="item">
+        <img src="./pics/20.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Duloxetine
+            <br>( Rs 105 - One Blister Packs / Tablet Cards)</span>
+        <label for="duloxetine-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="duloxetine-qty" value="0">
+        <button class="add-to-cart" data-name="Duloxetine" data-price="105" data-qty-id="duloxetine-qty">Add to Cart</button>
+    </div>
+
+    <!--Antihistamines-->
+    <h2 id="h2" class="one">Antihistamines</h2>
+
+    <div class="item">
+        <img src="./pics/21.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Diphenhydramine
+            <br>( Rs 150 - One Blister Packs / Tablet Cards)</span>
+        <label for="diphenhydramine-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="diphenhydramine-qty" value="0">
+        <button class="add-to-cart" data-name="Diphenhydramine" data-price="150" data-qty-id="diphenhydramine-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/22.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Loratadine
+            <br>( Rs 125 - One Blister Packs / Tablet Cards)</span>
+        <label for="loratadine-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="loratadine-qty" value="0">
+        <button class="add-to-cart" data-name="Loratadine" data-price="125" data-qty-id="loratadine-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/23.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Fexofenadine
+            <br>( Rs 175 - One Blister Packs / Tablet Cards)</span>
+        <label for="fexofenadine-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="fexofenadine-qty" value="0">
+        <button class="add-to-cart" data-name="Fexofenadine" data-price="175" data-qty-id="fexofenadine-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/24.jpg" alt="Medicine Image" class="medicine-image">
+        <span>Cetirizine
+            <br>( Rs 105 - One Blister Packs / Tablet Cards)</span>
+        <label for="cetirizine-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="cetirizine-qty" value="0">
+        <button class="add-to-cart" data-name="Cetirizine" data-price="105" data-qty-id="cetirizine-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/25.jpg" alt="Medicine Image" class="medicine-image">
+        <span>Chlorpheniramine
+            <br>( Rs 120 - One Blister Packs / Tablet Cards)</span>
+        <label for="chlorpheniramine-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="chlorpheniramine-qty" value="0">
+        <button class="add-to-cart" data-name="Chlorpheniramine" data-price="120" data-qty-id="chlorpheniramine-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/26.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Hydroxyzine
+            <br>( Rs 160 - One Blister Packs / Tablet Cards)</span>
+        <label for="hydroxyzine-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="hydroxyzine-qty" value="0">
+        <button class="add-to-cart" data-name="Hydroxyzine" data-price="160" data-qty-id="hydroxyzine-qty">Add to Cart</button>
+    </div>
+
+    <!--Antihypertensives-->
+
+    <h2 id="h2" class="one">Antihypertensives</h2>
+
+    <div class="item">
+        <img src="./pics/27.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Lisinopril
+            <br>( Rs 155 - One Blister Packs / Tablet Cards)</span>
+        <label for="lisinopril-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="lisinopril-qty" value="0">
+        <button class="add-to-cart" data-name="Lisinopril" data-price="155" data-qty-id="lisinopril-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/28.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Amlodipine
+            <br>( Rs 130 - One Blister Packs / Tablet Cards)</span>
+        <label for="amlodipine-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="amlodipine-qty" value="0">
+        <button class="add-to-cart" data-name="Amlodipine" data-price="130" data-qty-id="amlodipine-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/29.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Losartan 
+            <br>( Rs 160 - One Blister Packs / Tablet Cards)</span>
+        <label for="losartan-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="losartan-qty" value="0">
+        <button class="add-to-cart" data-name="Losartan"data-price="160" data-qty-id="losartan-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/30.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Hydrochlorothiazide
+            <br>( Rs 185 - One Blister Packs / Tablet Cards)</span>
+        <label for="hydrochlorothiazide-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="hydrochlorothiazide-qty" value="0">
+        <button class="add-to-cart" data-name="Hydrochlorothiazide" data-price="185" data-qty-id="hydrochlorothiazide-qty">Add to Cart</button>
+        </div>
+
+    <div class="item">
+        <img src="./pics/31.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Metoprolol
+            <br>( Rs 170 - One Blister Packs / Tablet Cards)</span>
+        <label for="metoprolol-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="metoprolol-qty" value="0">
+        <button class="add-to-cart" data-name="Metoprolol" data-price="170" data-qty-id="metoprolol-qty">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="./pics/32.jpeg" alt="Medicine Image" class="medicine-image">
+        <span>Valsartan
+            <br>( Rs 165 - One Blister Packs / Tablet Cards)</span>
+        <label for="valsartan-qty">Quantity:</label>
+        <input type="number" step="1" min="0" id="valsartan-qty" value="0">
+        <button class="add-to-cart" data-name="Valsartan" data-price="165" data-qty-id="valsartan-qty">Add to Cart</button>
+    </div>
+</div>
+</div>
+
+
+
+
+<!--cart-->
+
+<h2>Shopping Cart</h2>
+<table id="cart-table">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Price per kg</th>
+            <th>Quantity (kg)</th>
+            <th>Total Price</th>
+        </tr>
+    </thead>
+    <tbody id="cart-items"></tbody>
+</table>
+<p id="total-price">Total Price: Rs 0</p>
+<button id="buy-button">Buy Now</button>
+<button id="add-to-favorites">Add to Favorites</button>
+<button id="apply-favorites">Apply Favorites</button>
+
+<script src="script.js"></script>
+
+
+
+
+ <!-- footer -->
+ <footer>
+    <div class="footer-line"></div> 
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p id="p1"> ULife Hospital<br><br></p>
+            <p>Phone: 0112 345 345<br>
+            Email: UlifeHospital@gmail.com</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <ul class="social-media">
+                <li><a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 ULife Hospital. All rights reserved.</p>
+    </div>
+</footer>  
+</body>
+</html>

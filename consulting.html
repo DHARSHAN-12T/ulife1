@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulife Hospital</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="./favicon (1)/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="./favicon (1)/favicon.svg" />
+    <link rel="shortcut icon" href="./favicon (1)/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon (1)/apple-touch-icon.png" />
+    <link rel="manifest" href="./favicon (1)/web-app-manifest-192x192.png" />
+</head>
+
+<body>
+    <section>
+
+        <!-- header -->
+
+        <header>
+            <div class="logo_container">
+                <img src="./pics/logo.jpg" alt="ULife Hospital Logo" class="logo_img">
+            </div>
+            <a href="index.html" class="logo_text">ULife Hospital</a>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutsus.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="consulting.html">Consulting Reservation</a></li>
+                <li><a href="pharmacy.html">Pharmacy</a></li>
+                <li><a href="FAQ.html">FAQ & Feedbacks</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <h1>Patient Registration & Appointment</h1>
+        
+    <!--Form-->
+        <form action="submit_registration.php" method="post">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+            </div>  
+          
+             <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required>
+            </div>
+          
+            <div class="form-group">
+               <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+          
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email">
+            </div>
+          
+            <div class="form-group">
+                <label for="unit">Select Unit</label>
+                      <select id="unit" name="unit" required>
+                          <option value="">--Please choose a unit--</option>
+                          <option value="cancer_care">Cancer Care Unit</option>
+                          <option value="diabetes_unit">Diabetes Unit</option>
+                          <option value="mother_baby_care">Mother & Baby Care Unit</option>
+                          <option value="heart_care">Heart Care Unit</option>
+                          <option value="dental_care">Dental Care</option>
+                          <option value="neurology">Neurology</option>
+                      </select>
+            </div>
+          
+            <div class="form-group">
+                <label for="doctor">Preferred Doctor <span class="optional-field">(Optional)</span></label>
+                    <select id="doctor" name="doctor">
+                          <option value="">--Please choose a doctor--</option>
+                          <option value="dr_k_l_silva">Dr. K.L. Silva</option>
+                          <option value="dr_m_a_saman">Dr. M.A. Saman</option>
+                          <option value="dr_w_q_surendra">Dr. W.Q. Surendra</option>
+                          <option value="dr_a_d_perera">Dr. A.D. Perera</option>
+                          <option value="dr_u_nazar">Dr. U. Nazar</option>
+                          <option value="dr_a_k_t_gamage">Dr. A.K.T. Gamage</option>
+                      </select>
+            </div>
+          
+            <div class="form-group">
+             <label for="appointment_date">Preferred Appointment Date <span class="optional-field">(Optional if no appointment)</span></label>
+                <input type="date" id="appointment_date" name="appointment_date">
+            </div>
+          
+            <div class="form-group">
+                <label for="notes">Special Notes (Optional)</label>
+                <textarea id="notes" name="notes" rows="4"></textarea>
+            </div>
+          
+            <button class="submit">Submit</button>
+        </form>
+          
+<!--footer-->
+<footer>
+    <div class="footer-line"></div> 
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p id="p1"> ULife Hospital<br><br></p>
+            <p>Phone: 0112 345 345<br>
+            Email: UlifeHospital@gmail.com</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutsus.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="consulting.html">Consulting Reservation</a></li>
+                <li><a href="pharmacy.html">Pharmacy</a></li>
+                <li><a href="FAQ.html">FAQ & Feedbacks</a></li>
+            </u1>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <ul class="social-media">
+                <li><a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="https://x.com/login?mx=2"><i class="fa-brands fa-twitter"></i></a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 ULife Hospital. All rights reserved.</p>
+    </div>
+</footer>  
+</body>
+</html>
